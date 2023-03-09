@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+</head>
+
+<body>
+    <h2>Enter Your details here....</h2>
+    <hr size="2">
+    <form action="index.html">
+        <div>
+            <label>Enter Your Name:</label>
+            <input type="text" required><br>
+        </div>
+        <hr size="2">
+        <div>
+            <label>Select Your role:</label>
+            <input type="checkbox" id="1" name="otaku" value="otaku">
+            <label for="1">otaku</label>
+            <input type="checkbox" id="2" name="weeb" value="weeb">
+            <label for="2">weeb</label><br>
+        </div>
+        <hr size="2">
+        <div>
+            <label>Enter Your Email<label>
+            <input type="email" id="6" required>
+        </div>
+        <hr size="2">
+        <div>
+           <label>Enter your profile pic:<label>
+            <input type="file" id="7" accept="img/jpg,img/jpeg">
+        </div>
+        <hr size="2">
+        <div>
+            <label>Enter your favorite color:</label>
+            <input type="color" id="3" name="color" value="color">
+        </div>
+        <hr size="2">
+        <div>
+            <label>Enter your birth date:</label>
+            <input type="date" id="5" name="date" value="date">
+        </div>
+        <hr size="2">
+        <div>
+            <label>Select your prefered slot:</label>
+            <input type="datetime-local" id="5" value="2018-06-12T19:30" mix="2010-06-03T18:30" max="2030-06-03T18:30">
+        </div>
+        <hr size="2">
+        <div>
+            <label>Enter Your password:(minimum 10 letters)</label>
+            <input type="password" id="8" name="password" minlength="10" required>
+        </div>
+        <hr size="2">
+        <div>
+            <label>Enter your favorite genre:</label>
+            <input type="radio" id="9" name="radio" value="Action">
+            <label for="9">Action</label>
+            <input type="radio" id="11" name="radio" value="Romcon">
+            <label for="11">Romcon</label>
+            <input type="radio" id="12" name="radio" value="Mystry">
+            <label for="12">Mystry</label>
+        </div>
+        <hr size="2">
+        <div>
+            <label>Set the Range of your craze for selected genre:</label>
+            <input type="range" id="13" name="range" value="genre">
+            <label for="13">craze lvl</label>
+        </div>
+        <hr size="2">
+        <div>
+            <input type="reset">
+        </div>
+        <hr size="2">
+        <div>
+            <input type="image" name="submit" id="10" src="download.png">
+        </div>
+    </form>
+</body>
+
+</html>
